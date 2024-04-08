@@ -1,0 +1,97 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+    margin: 25px;
+}
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar ul {
+    
+    list-style-type: none;
+    background-color: darkslategray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a {
+    color: rgb(219, 180, 219);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+
+.navbar a:hover{
+    background-color: rgb(24, 41, 41);
+}
+.navbar li{
+    float: left;
+}
+
+h2 { color:#ba1a1a;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    width: 500px;
+    margin-right: 15px;
+    
+  }
+
+section {
+  color: #3b3b95;
+  padding-top: 15px;
+  padding-left: 15px;
+
+
+}
+
+
+h1 { color: #9b4052;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  }
+
+
+:root {
+  --var-body-bg: #cde9de;
+  --var-body-fc:#002019;
+  --var-header-bg: #006b57;
+}
+
+@media (prefers-color-scheme: dark) {
+:root { 
+  --var-body-bg: #002019;
+  --var-body-fc: #ffffff;
+  --var-header-bg: #7cf8d6;}
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--var-body-bg);
+  color: var(--var-body-fc);
+  font-family: Roboto Mono;
+}
+.theme {
+  float: right;
+}
+.header {
+  padding: 1rem;
+  background-color: var(--var-header-bg);
+  border-bottom: .1rem solid var(--var-body-fc);
+}
+.content {
+  padding: 1rem;
+}
